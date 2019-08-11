@@ -8,12 +8,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { ProjectsComponent } from './components/layout/projects/projects.component';
+import { AboutComponent } from './components/layout/about/about.component';
+import { TitleComponent } from './components/layout/about/title/title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AboutComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
