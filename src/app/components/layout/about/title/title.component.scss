@@ -8,7 +8,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: "Dosis", sans-serif;
-    font-size: 95px;
+    font-size: 70px;
     text-decoration: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -35,27 +35,7 @@
   .char:hover {
     color: darkturquoise;
   }
-  
-  .ml9 {
-    position: relative;
-    font-weight: 200;
-    font-size: 4em;
-  }
-  
-  .ml9 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-  }
-  
-  .ml9 .letter {
-    transform-origin: 50% 100%;
-    display: inline-block;
-    line-height: 1em;
-  }
+
   
   .anim {
     animation-duration: 1s;

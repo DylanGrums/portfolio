@@ -1,10 +1,7 @@
-<div class="body">
-    <h1 style='padding-top: 100px'>Hello</h1>
-    <div class="text">
-        <ng-container *ngFor="let c of test;">
-            <span id="replaceStrings" class="char" (mouseover)="over($event)">{{c}}</span>
-        </ng-container>
-    </div>
-
+<div class="text">
+    <ng-container>
+        <span *ngFor="let c of namesplit;" style="white-space: pre;" class="char" (mouseover)="over($event)">{{c}}</span>
+        <br>
+        <span *ngFor="let c of jobsplit;" style="white-space: pre;" class="char" (mouseover)="over($event)">{{c}}</span>
+    </ng-container>
 </div>
-<!-- <p class="typeit" id="replaceStrings" style=""></p> -->

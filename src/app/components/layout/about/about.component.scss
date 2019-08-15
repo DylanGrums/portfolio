@@ -1,9 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
 .jumbotron {
-    background: #232531;
-
+  background: #232531;
 }
 .title {
-    float: left;
-    margin-left: -60%;
+  float: left;
+  margin-left: -60%;
+}
+
+.text {
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.img {
+  height: 90%;
+  width: 90%;
+  background: url("C:/Users/dylan/Desktop/portfolio/portfolio/src/assets/img/2.png") 0 0 no-repeat,
+    radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 10%,rgba(35,37,49) 90%);
+  background-blend-mode: multiply;
+}
+
+.center {
+  align-items: center!important;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -110px;
+}
+
+.col-6 {
+  top: -15px
+}
+
+.container {
+  height: 100%;
+}
+
+.image {
+  height: 1000px;
+  // margin-left: 60px;
+  // margin-top: -45px;
+  // margin-bottom: -26px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(35,37,49, 0.45), 
+      rgba(35,37,49, 0.45)
+    ),
+    /* bottom, image */
+    url(C:/Users/dylan/Desktop/portfolio/portfolio/src/assets/img/2.png)no-repeat center center;
 }

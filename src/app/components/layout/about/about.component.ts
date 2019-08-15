@@ -6,10 +6,15 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
+  title1 = true;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  switchTitle() {
+    this.title1 = !this.title1
+    console.log(this.title1)
+  }
 }
